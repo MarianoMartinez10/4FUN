@@ -1,0 +1,47 @@
+
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #5a04ca;
+	border-color: #31046b;
+    border-radius: 10px;
+}
+
+.nav-link {
+	font-size: 20px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #983ffd;
+    border-color: #5a04ca;
+}
+
+body{
+    background: black;
+    overflow:hidden;
+    font-family: "Noto Sans", Verdana, Helvetica, Sans-Serif;
+  }
+
+  canvas{
+      position:absolute;
+      top:0;
+      left:0;
+  }
+.card{
+    width: 550px;
+    height: 230px;
+    margin-left: auto;
+margin-right: auto;
+margin-top: 180px;
+border-radius: 20px;
+}
+
+.card-header{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card-body{
+    font-family: 'Noto Sans', sans-serif;
+font-size: 18px;
+}

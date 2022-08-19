@@ -1,0 +1,255 @@
+body {
+	font-family: "Noto Sans", Verdana, Helvetica, Sans-Serif;
+	font-size: .85em;
+background-color: black;
+	color: #666666;
+}
+
+.alert-warning{
+	color: #ffffff;
+	background-color: #8d35ff;
+	border-color: #31046b;
+	font-size: 17px;
+	border-radius: 20px;
+}
+
+.nav-link {
+	font-size: 20px;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #5a04ca;
+	border-color: #31046b;
+	border-radius: 10px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #983ffd;
+    border-color: #5a04ca;
+}
+
+/*tetris*/
+#canvas {
+	background-color: black;
+	color: white;
+	width:512px;
+	height:480px;
+	position: relative;
+	margin: auto;
+	padding: 10px;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin-bottom: 40px;
+	margin-top: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*fin tetris*/  
+
+  .footer-distributed{
+	  background: #5a04ca;
+	  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	  box-sizing: border-box;
+	  width: 100%;
+	  font: ''bold 16px Noto Sans'';
+	  text-align: left;
+	  padding: 20px 20px 20px;
+	  overflow: hidden;
+  }
+    
+  .footer-distributed .footer-left{
+	  float: left;
+  }
+    
+  .footer-distributed h3{
+	  color:  #ffffff;
+	  font: normal 36px 'Noto Sans', cursive;
+	  margin: 0 0 10px;
+
+  }
+  
+.quienessomos{
+	font-size: 15px;
+	color: #a0a8aF;
+	margin-top: 29px;
+}
+.containertexto{
+	width: 700px;
+}
+.contacto{
+	font-size: 18px;
+}
+
+  .footer-distributed .footer-links{
+	  color:  #ffffff;
+	  margin: 0 0 10px;
+	  padding: 0;
+  }
+  
+  .footer-distributed .footer-links a{
+	  display:inline-block;
+	  line-height: 1.8;
+	  text-decoration: none;
+	  color:  inherit;
+	  font-size: 20px;
+  }
+  
+  .footer-distributed .footer-company-name{
+	  color:  #8f9296;
+	  font-size: 14px;
+	  font-weight: normal;
+	  margin: 0;
+  }
+  
+  .footer-distributed .footer-right{
+	  float: right;
+  }
+  
+  .footer-distributed .footer-right p{
+	  display: inline-block;
+	  vertical-align: top;
+	  margin: 15px 42px 0 0;
+	  color: #ffffff;
+  }
+  
+  /* Contacto */
+  
+  .footer-distributed form{
+	  display: inline-block;
+  }
+  
+  .footer-distributed form input,
+  .footer-distributed form textarea{
+	  display: block;
+	  border-radius: 3px;
+	  box-sizing: border-box;
+	
+	  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	  border: none;
+	  resize: none;
+  
+	  font: inherit;
+	  font-size: 16px;
+	  font-weight: normal;
+	  color:  #000000;
+  
+	  width: 400px;
+	  padding: 18px;
+  }
+  
+  .footer-distributed ::-webkit-input-placeholder {
+	  color:  #5c666b;
+  }
+  
+  .footer-distributed ::-moz-placeholder {
+	  color:  #5c666b;
+	  opacity: 1;
+  }
+  
+  .footer-distributed :-ms-input-placeholder{
+	  color:  #5c666b;
+  }
+  
+  .footer-distributed form input{
+	  height: 55px;
+	  margin-bottom: 15px;
+  }
+  
+  .footer-distributed form textarea{
+	  height: 100px;
+	  margin-bottom: 20px;
+  }
+  
+  .footer-distributed form button{
+	  border-radius: 3px;
+	  border-color: #31046b;
+	  background-color:  rgb(86, 3, 128);
+	  color: #ffffff;
+	  border-radius: 20px;
+	  padding: 10px 40px;
+	  font-weight: bold;
+	  float: right;
+  }
+
+  .logofooter{
+	height: 71px;
+  }
+
+  @media (max-width: 1000px) {
+
+	.footer-distributed {
+		  font: bold 14px sans-serif;
+		  text-align: center;
+	  }
+ 	 .containertexto{
+		width: 300px;
+	text-align: center;
+  }
+	.footer-distributed .footer-company-name{
+		  font-size: 12px;
+		  text-align: center;
+	  }
+  
+	.footer-distributed form input{
+		width: 250px;
+		text-align: center;
+		margin: auto;
+	  }
+
+	.footer-distributed form textarea{
+		  width: 250px;
+		  text-align: center;
+		  margin: auto;
+		  margin-top: 20px
+	  }
+  
+	.footer-distributed form button{
+		  padding: 10px 35px;
+		  margin-top: 20px;
+	  }
+	.contacto{
+		text-align: center;
+  }
+ 	#canvas{
+		width: auto;
+		height: auto;  }
+  }
+  
+  @media (max-width: 800px) {
+  
+	  .footer-distributed{
+		  padding: 30px;
+		  
+	  }
+  
+	  .footer-distributed .footer-left,
+	  .footer-distributed .footer-right{
+		  float: none;
+		  max-width: 300px;
+		  margin: 0 auto;
+	  }
+  
+	  .footer-distributed .footer-left{
+		  margin-bottom: 40px;
+	  }
+  
+	  .footer-distributed form{
+		  margin-top: 30px;
+	  }
+  
+	  .footer-distributed form{
+		  display: block;
+	  }
+  
+	  .footer-distributed form button{
+		  float: none;
+	  }
+	  #canvas{
+		width: auto;
+	height: auto;  
+	}
+ }
+  

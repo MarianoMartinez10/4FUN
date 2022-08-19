@@ -1,0 +1,108 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="shortcut icon" href="images/logo-simp.png">
+    <link rel="stylesheet" href="estilo2.css">
+         
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="gradient">
+       <a href="index.html"> <img src="images/Blanco.png" class="logo1"> </a>
+            <!-- Ingreso -->
+            <section>
+    <div class="container containerlogin">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Ingresar</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Correo" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Recordarme</label>
+                        </div>
+                        
+                        <a href="#" class="text">Olvidé mi contraseña</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Ingresar" onClick="window.location.href='index.html';">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">¿No sos miembro?
+                        <a href="#" class="text signup-link">Registrate ahora</a>
+                    </span>
+                </div>
+            </div>
+            
+            <!-- Registro -->
+            <div class="form signup">
+                <span class="title">Registrarme</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Tu nombre" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Tu correo" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirmar contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">Acepto todos los términos y condiciones</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Crear cuenta" onClick="window.location.href='index.html';">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">¿Ya tenés una cuenta?
+                        <a href="#" class="text login-link">Ingresar</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<script src="login.js"></script>
+</body>
+</html>
+
